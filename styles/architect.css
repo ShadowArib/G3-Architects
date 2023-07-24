@@ -71,12 +71,17 @@ padding: 42px 30px;}
 
 .facts-card-container .card-title{ font-weight: 600; color: #727272; font-size: 1.25rem;}
 
-/* Our Sponspors section */
+/* Our Sponsors section */
+.Sponsors-title{font-size: 2.5rem; font-weight: 700; color: #131313; padding-bottom: 24px;}
 
+.Sponsors-description{color: #727272;  }
 
+.Sponsors{text-align: center; margin-top: 150px;}
 
+.sponsors-img-container{ display: flex; justify-content: space-evenly; margin-top: 50px; gap: 100px;
+align-items: center;}
 
-
+.sponsors-img-container img { width: 165px;}
 
 
 
@@ -105,8 +110,23 @@ padding: 42px 30px;}
 
     .facts-card-container{flex-direction: column; padding-right: 20px; padding-left: 120px; 
         gap: 20px; }
+
+    .facts-title{ margin-left: 20px;}
     
-        .facts-description{ width: 500px;}
+    .facts-description{ width: 500px; margin-left: 20px;}
+
+    .sponsors-img-container{ flex-direction: column; margin-left: 70px;}
+
+    .Sponsors-title{ margin-left: 80px;}
+
+    .Sponsors-description{ margin-left: 70px;}
+
+
+
+
+
+
+
 
 
 
@@ -127,7 +147,15 @@ padding: 42px 30px;}
 
     .nav-title{padding-bottom: 30px;}
 
+    .facts-title{ margin-left: 20px;}
+    
+    .facts-description{ margin-left: 20px;}
+
     .card{width: 150px; height: 150px; margin-left: 10px; margin-right: 10px;}
+
+    .sponsors-img-container{ flex-direction: column;}
+
+    
 
 
 
