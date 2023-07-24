@@ -50,10 +50,28 @@ nav li {list-style: none; margin-right: 30px; font-weight: 500px; font-size: 1re
 
 /* Features you will love & enjoy section */
 
+.features{display: flex; margin-top: 130px; gap: 100px;}
 
+.features-card { border-radius: 8px; background: #FFF; 
+ padding: 30px; margin-bottom: 20px; box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);}
 
+ .features-title{color: #131313; font-size: 45px; font-weight: 700; border-left: 5px solid
+ #FF900E; padding-left:20px;}
 
+.features-content{color: var #727272; font-size: 16px; font-weight: 400; padding-top: 24px;}
 
+.card-heading{ color: #131313; font-size: 20px; font-weight: 600;}
+
+.card-content{ color: #727272; font-size: 16px; font-weight: 400;}
+
+.features-img img { height: 70%; margin-left: 70px;}
+
+.ten-years-badge{border-radius: 8px; background: #FF900E; width: 342px; height: 200px; 
+   text-align: center; position: relative; bottom: 100px; }
+
+.ten-years-badge h2{color: #FFF; font-size: 4rem; font-weight: 700; padding-top: 35px;}
+
+.ten-years-badge p{font-size: 1.5rem; color: #FFF; font-weight: 500;}
 
 /* Some Facts section */
 .facts{margin-top: 20px;}
@@ -83,8 +101,10 @@ align-items: center;}
 
 .sponsors-img-container img { width: 165px;}
 
+/* Footer section */
+footer{border-radius: 8px; background: #FFF4E7; padding: 38px 410px; margin: 130px 240px 200px;}
 
-
+footer p{ text-align: center;}
 
 
 
@@ -121,23 +141,23 @@ align-items: center;}
 
     .Sponsors-description{ margin-left: 70px;}
 
+    .features{flex-direction: column;}
 
+    .features-img img{ width: 90%; margin-left: 40px;}
 
+    .ten-years-badge{ max-width: 300px; margin-left: 30px;}
 
+    .features-title{margin-left: 20px;}
 
+    .features-content{margin-left: 20px; margin-bottom: 20px;}
 
-
-
-
+    footer{ padding-left: 70px; padding-right: 70px; margin-left: 120px; margin-right: 20px;}
 
 }
 
-
-
-
 /* For tablet or medium device */
 @media screen and (min-width: 576px ) and (max-width: 960px) {
-    header {padding: 50px;}
+    header {padding: 50px;  }
 
     nav{flex-direction: column; margin-bottom: 25px;}
 
@@ -155,16 +175,17 @@ align-items: center;}
 
     .sponsors-img-container{ flex-direction: column;}
 
+    .features{flex-direction: column;}
+
+    .features-title{margin-left: 20px;}
+
+    .features-content{margin-left: 20px; margin-bottom: 20px;}
+
+    .features-img img{ width: 80%;}
+
+    .ten-years-badge{ max-width: 400px; margin-left: 50px;}
+
     
-
-
-
-
-
-
-
-
-
-
+    footer{ padding-left: 70px; padding-right: 70px; margin-left: 60px; margin-right: 20px;}
 
 }
